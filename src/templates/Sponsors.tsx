@@ -3,86 +3,86 @@ import Image from 'next/image';
 import { Section } from '@/layout/Section';
 
 const Sponsors = () => (
-  <Section
-    title="Sponsors"
-    description="Our sponsors' exceptional support has made this project possible."
-  >
+  <Section title="Benefits" description="Where can I use my verifications?">
     <table className="mx-auto border-collapse">
       <tbody>
         <tr className="h-56">
           <td className="border-2 border-gray-300 p-3">
-            <a
-              href="https://sentry.io/for/nextjs/?utm_source=github&utm_medium=paid-community&utm_campaign=general-fy25q1-nextjs&utm_content=github-banner-nextjsboilerplate-logo"
-              target="_blank"
-            >
+            <a href="https://passport.gonzalomelov.xyz" target="_blank">
               <Image
-                src="/assets/images/sentry-dark.png"
-                alt="Sentry"
+                src="/assets/images/gitcoin-passport.jpeg"
+                alt="Gitcoin Passport"
                 width={260}
                 height={224}
               />
             </a>
           </td>
-          <td className="border-2 border-gray-300 p-3">
-            <a
-              href="https://betterstack.com/?utm_source=github&utm_medium=sponsorship&utm_campaign=next-js-boilerplate"
-              target="_blank"
-            >
+          <td className="relative border-2 border-gray-300 p-3">
+            <a href="https://www.sushi.com" target="_blank">
               <Image
-                src="/assets/images/better-stack-dark.png"
-                alt="Better Stack"
+                src="/assets/images/sushiswap.jpeg"
+                alt="SushiSwap"
                 width={260}
                 height={224}
               />
             </a>
+            <span className="absolute bottom-2 right-2 rounded bg-black px-2 py-1 text-xs text-white">
+              Coming Soon
+            </span>
           </td>
-          <td className="border-2 border-gray-300 p-3">
-            <a href="https://nextlessjs.com">
+          <td className="relative border-2 border-gray-300 p-3">
+            <a href="https://hyperliquid.xyz" target="_blank">
               <Image
-                src="/assets/images/nextlessjs.png"
+                src="/assets/images/hyperliquid.png"
                 alt="React SaaS Boilerplate Next.js"
                 width={260}
                 height={224}
               />
             </a>
+            <span className="absolute bottom-2 right-2 rounded bg-black px-2 py-1 text-xs text-white">
+              Coming Soon
+            </span>
           </td>
         </tr>
         <tr className="h-56">
-          <td className="border-2 border-gray-300 p-3">
-            <a
-              href="https://clerk.com?utm_source=github&utm_medium=sponsorship&utm_campaign=nextjs-boilerplate"
-              target="_blank"
-            >
+          <td className="relative border-2 border-gray-300 p-3">
+            <a href="https://balancer.fi" target="_blank">
               <Image
-                src="/assets/images/clerk.png"
+                src="/assets/images/balancer.png"
                 alt="Clerk – Authentication & User Management for Next.js"
                 width={260}
                 height={224}
               />
             </a>
+            <span className="absolute bottom-2 right-2 rounded bg-black px-2 py-1 text-xs text-white">
+              Coming Soon
+            </span>
           </td>
-          <td className="border-2 border-gray-300 p-3">
-            <a
-              href="https://turso.tech/?utm_source=nextjsstarterbp"
-              target="_blank"
-            >
+          <td className="relative border-2 border-gray-300 p-3">
+            <a href="https://arbiscan.io" target="_blank">
               <Image
-                src="/assets/images/turso.png"
-                alt="SQLite Developer Experience"
+                src="/assets/images/arbiscan.svg"
+                alt="Arbiscan"
                 width={260}
                 height={224}
               />
             </a>
+            <span className="absolute bottom-2 right-2 rounded bg-black px-2 py-1 text-xs text-white">
+              Coming Soon
+            </span>
           </td>
-          <td className="border-2 border-gray-300 p-3">
-            <a href="https://l.crowdin.com/next-js" target="_blank">
+          <td className="relative border-2 border-gray-300 p-3">
+            <a href="https://treasure.lol" target="_blank">
               <Image
-                src="https://support.crowdin.com/assets/logos/core-logo/svg/crowdin-core-logo-cDark.svg"
+                src="/assets/images/treasure.png"
                 alt="Crowdin"
                 width={260}
                 height={224}
               />
             </a>
+            <span className="absolute bottom-2 right-2 rounded bg-black px-2 py-1 text-xs text-white">
+              Coming Soon
+            </span>
           </td>
         </tr>
       </tbody>

@@ -12,12 +12,9 @@ const Hero = () => (
     <Section yPadding="py-6">
       <NavbarTwoColumns logo={<Logo xl />}>
         <li>
-          <Link href="https://github.com/ixartz/Next-JS-Landing-Page-Starter-Template">
+          <Link href="https://github.com/Farcaster-On-Chain-Verification">
             GitHub
           </Link>
-        </li>
-        <li>
-          <Link href="/">Sign in</Link>
         </li>
       </NavbarTwoColumns>
     </Section>
@@ -26,14 +23,16 @@ const Hero = () => (
       <HeroOneButton
         title={
           <>
-            {'The modern landing page for\n'}
-            <span className="text-primary-500">React developers</span>
+            {'Verify your wallet\n'}
+            <span className="text-primary-500">
+              to unlock onchain experiences
+            </span>
           </>
         }
-        description="The easiest way to build a React landing page in seconds."
+        description="Get benefits that are only available when you verify your wallet with Farcaster."
         button={
-          <Link href="https://creativedesignsguru.com/category/nextjs/">
-            <Button xl>Download Your Free Theme</Button>
+          <Link href="https://warpcast.com/ceciliaeiraldi92/0xef284eba">
+            <Button xl>Get verified</Button>
           </Link>
         }
       />

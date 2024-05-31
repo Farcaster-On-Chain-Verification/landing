@@ -7,13 +7,15 @@ import { Section } from '../layout/Section';
 const Banner = () => (
   <Section>
     <CTABanner
-      title="Lorem ipsum dolor sit amet consectetur adipisicing elit."
-      subtitle="Start your Free Trial."
+      title="Claim your Gitcoin Passport stamp to"
+      subtitle="improve your humanity score!"
       button={
-        <Link href="https://creativedesignsguru.com/category/nextjs/">
-          <Button>Get Started</Button>
+        <Link href="https://passport.gonzalomelov.xyz" target="_blank">
+          <Button>Claim your Stamp</Button>
         </Link>
       }
+      image="/assets/images/gitcoin-passport.jpeg"
+      imageAlt="Claim your Stamp"
     />
   </Section>
 );

@@ -1,6 +1,7 @@
 export const AppConfig = {
-  site_name: 'Starter',
-  title: 'Nextjs Starter',
-  description: 'Starter code for your Nextjs Boilerplate with Tailwind CSS',
+  site_name: 'Farcaster Onchain Verification',
+  title: 'Farcaster Onchain Verification',
+  description:
+    'Verify your Farcaster account onchain on Arbitrum through Warpcast and claim your Gitcoin Passport stamp!',
   locale: 'en',
 };
